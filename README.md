@@ -58,6 +58,9 @@ OPENAI_API_KEY=your-openai-api-key
 streamlit run main.py
 ```
 
-| Upload CSV            | Ask a Question       | Backend Debug               |
-| --------------------- | -------------------- | --------------------------- |
-| ![Upload](result.png) | ![Chat](result1.png) | ![Logs](result_backend.png) |
+# Results:
+![Uploading CSV](result.png)
+
+![Asking a Question](result1.png)
+
+![Agent Backend](result_backend.png)
