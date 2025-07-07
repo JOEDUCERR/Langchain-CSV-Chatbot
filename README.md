@@ -17,6 +17,17 @@ This is a Streamlit web app that allows you to **conversationally query CSV file
 
 ---
 
+### 📤 Uploading the CSV
+![Uploading CSV](./result.png)
+
+### 💬 Asking a Question
+![Asking a Question](./result1.png)
+
+### 🧠 Agent Backend Logging
+![Agent Backend](./result_backend.png)
+
+---
+
 ## 📁 Project Structure
 
 ```text
@@ -57,10 +68,3 @@ OPENAI_API_KEY=your-openai-api-key
 ```
 streamlit run main.py
 ```
-
-# Results:
-![Uploading CSV](result.png)
-
-![Asking a Question](result1.png)
-
-![Agent Backend](result_backend.png)
