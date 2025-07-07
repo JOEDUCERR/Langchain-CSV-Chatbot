@@ -2,10 +2,13 @@ import streamlit as st
 from langchain_experimental.agents import create_csv_agent
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
+import os
 
 def main():
 
-    load_dotenv()
+    # load_dotenv()
+    openai_key = st.secrets["OPENAI_API_KEY"]
+    os.environ["OPENAI_API_KEY"] = openai_key
 
     st.set_page_config(
         page_title="Ask your CSV"
