@@ -64,7 +64,4 @@ Create a .env file like this:
 OPENAI_API_KEY=your-openai-api-key
 ```
 
-💻 Run the App
-```
-streamlit run main.py
-```
+💻 Run the App: streamlit run main.py
